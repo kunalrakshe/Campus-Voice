@@ -31,13 +31,13 @@ def analyze():
     if not text.strip():
         return redirect(url_for('index'))
         
-    result = analyzer.analyze(text)streamlit
+    result = analyzer.analyze(text)
     
     # Save to history
     history = load_history()
     record = {
         'id': len(history) + 1,
-        'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),gi
+        'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         'text': text,
         'sentiment': result['sentiment'],
         'sentiment_confidence': result['sentiment_confidence'],
