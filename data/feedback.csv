@@ -1,0 +1,162 @@
+text,sentiment,category
+The computer lab is very fast.,Positive,Infrastructure
+The computers are working perfectly.,Positive,Infrastructure
+The laboratory equipment is well maintained.,Positive,Infrastructure
+The new projectors are excellent and clear.,Positive,Infrastructure
+Campus Wi-Fi speed is great.,Positive,Infrastructure
+The classrooms are clean and well ventilated.,Positive,Infrastructure
+The college infrastructure is excellent.,Positive,Infrastructure
+The infrastructure here is very good.,Positive,Infrastructure
+The campus facilities are top notch.,Positive,Infrastructure
+The computer lab is fast and all systems are working properly.,Positive,Infrastructure
+The computer lab computers are very slow.,Negative,Infrastructure
+Many computers are not working in the lab.,Negative,Infrastructure
+The projector is broken and unusable.,Negative,Infrastructure
+Washrooms are dirty and have no water.,Negative,Infrastructure
+The Wi-Fi connection is terrible.,Negative,Infrastructure
+Ceiling fans in room 102 are making a loud noise.,Negative,Infrastructure
+The college infrastructure is not good.,Negative,Infrastructure
+The equipment in the lab is completely outdated.,Negative,Infrastructure
+The infrastructure is very poor and needs improvement.,Negative,Infrastructure
+The computer lab is slow and several computers are broken.,Negative,Infrastructure
+The computer lab is open.,Neutral,Infrastructure
+The building has three floors.,Neutral,Infrastructure
+The classrooms have desks.,Neutral,Infrastructure
+We have a projector in the room.,Neutral,Infrastructure
+The equipment is located on the second floor.,Neutral,Infrastructure
+The Python faculty explains concepts clearly and gives useful examples.,Positive,Faculty
+Maths professor is excellent and clears all doubts.,Positive,Faculty
+Teachers are very helpful and supportive.,Positive,Faculty
+Lab assistants provide great guidance.,Positive,Faculty
+The new lecturer is very good at teaching.,Positive,Faculty
+The teachers are very helpful and explain everything clearly.,Positive,Faculty
+The faculty here is amazing.,Positive,Faculty
+The teaching methodology needs improvement.,Negative,Faculty
+The faculty is often late to class.,Negative,Faculty
+Professor does not explain clearly.,Negative,Faculty
+The lab assistant is not helpful.,Negative,Faculty
+Teachers are rude to students.,Negative,Faculty
+The lecturer does not teach well.,Negative,Faculty
+The teaching quality is very poor.,Negative,Faculty
+The faculty is average.,Neutral,Faculty
+We have a new professor.,Neutral,Faculty
+The teacher took the class today.,Neutral,Faculty
+The lecturer is present.,Neutral,Faculty
+The library has a huge collection of useful books.,Positive,Library
+I love the peaceful reading environment in the library.,Positive,Library
+The librarian is very helpful.,Positive,Library
+Library system is fast and efficient.,Positive,Library
+Great availability of research journals.,Positive,Library
+The library has many useful books.,Positive,Library
+The library needs more books related to artificial intelligence.,Negative,Library
+Not enough seating space in the library.,Negative,Library
+Some books in the library have missing pages.,Negative,Library
+The library is too noisy for studying.,Negative,Library
+Library fines are too high.,Negative,Library
+The reading room is very congested.,Negative,Library
+The library has 500 books.,Neutral,Library
+Library is open during standard hours.,Neutral,Library
+I visited the library today.,Neutral,Library
+Can we extend the library hours during exams?,Neutral,Library
+The librarian sits at the front desk.,Neutral,Library
+The canteen food is excellent and the service is good.,Positive,Canteen
+"I like the new menu in the canteen, very tasty.",Positive,Canteen
+Canteen staff is very friendly and fast.,Positive,Canteen
+The food is fresh and well prepared.,Positive,Canteen
+Great coffee at the canteen.,Positive,Canteen
+The lunch was delicious.,Positive,Canteen
+The canteen food is terrible and the service is very poor.,Negative,Canteen
+Food in the canteen is very unhygienic and tastes bad.,Negative,Canteen
+Food prices in canteen are too high.,Negative,Canteen
+The canteen is always overcrowded and dirty.,Negative,Canteen
+Service is very slow at the canteen.,Negative,Canteen
+The meals are not good.,Negative,Canteen
+Need more variety in canteen snacks.,Neutral,Canteen
+Hostel food is okay but could be better.,Neutral,Canteen
+The canteen is on the ground floor.,Neutral,Canteen
+I ate lunch at the canteen.,Neutral,Canteen
+Bus number 5 driver drives very safely.,Positive,Transport
+The buses are generally well maintained and clean.,Positive,Transport
+Transport service is always on time.,Positive,Transport
+The bus route is very convenient.,Positive,Transport
+Great transport facilities for students.,Positive,Transport
+Buses are always late and overcrowded.,Negative,Transport
+Bus broke down in the middle of the road.,Negative,Transport
+The bus driver is very rash.,Negative,Transport
+Transport fee is too expensive for the service provided.,Negative,Transport
+There is no bus available after 5 PM.,Negative,Transport
+I have no issues with the transport system.,Neutral,Transport
+Transport fee is acceptable.,Neutral,Transport
+I travel by college bus.,Neutral,Transport
+The bus leaves at 4 PM.,Neutral,Transport
+The new syllabus for machine learning is very updated and helpful.,Positive,Academics
+Exams were scheduled properly with enough gaps.,Positive,Academics
+Lectures are going smoothly and are very interesting.,Positive,Academics
+The seating arrangement during exams was very comfortable.,Positive,Academics
+The practical assignments are very practical and good.,Positive,Academics
+The course is very well structured.,Positive,Academics
+The timetable is very poorly designed.,Negative,Academics
+Too many assignments are given at once.,Negative,Academics
+The exam was unnecessarily tough and out of syllabus.,Negative,Academics
+Online classes are not effective at all.,Negative,Academics
+The grading system is unfair.,Negative,Academics
+The subject is too difficult to understand.,Negative,Academics
+I think the college timings are fine.,Neutral,Academics
+The latest workshop was somewhat useful.,Neutral,Academics
+Please provide more coding competitions.,Neutral,Academics
+The semester is ending soon.,Neutral,Academics
+The assignment is due tomorrow.,Neutral,Academics
+The sports facilities are quite good and well maintained.,Positive,Other
+The placement cell is doing a great job.,Positive,Other
+The recent cultural fest was amazing.,Positive,Other
+"Overall, my college experience is very good.",Positive,Other
+The administration is very supportive and fast.,Positive,Other
+The college administration is very slow and unhelpful.,Negative,Other
+The campus lacks proper security.,Negative,Other
+There are no good extracurricular activities.,Negative,Other
+The management does not listen to student feedback.,Negative,Other
+Fees payment portal is always crashing.,Negative,Other
+I wish we had more sports equipment.,Neutral,Other
+The college has a large playground.,Neutral,Other
+The administration office is in block A.,Neutral,Other
+The event was held in the auditorium.,Neutral,Other
+The canteen food is very tasty.,Positive,Canteen
+The canteen food tastes really good.,Positive,Canteen
+The canteen meals are delicious.,Positive,Canteen
+The food is delicious and fresh.,Positive,Canteen
+The canteen serves tasty food.,Positive,Canteen
+The food quality is excellent.,Positive,Canteen
+The meals are very good.,Positive,Canteen
+The food served here is fresh and tasty.,Positive,Canteen
+The food tastes amazing.,Positive,Canteen
+The canteen food tastes great.,Positive,Canteen
+The meals taste very good.,Positive,Canteen
+It tastes delicious.,Positive,Canteen
+The canteen food is not tasty at all.,Negative,Canteen
+The canteen meals taste very bad.,Negative,Canteen
+The food is disgusting and stale.,Negative,Canteen
+The canteen serves awful food.,Negative,Canteen
+The food quality is terrible.,Negative,Canteen
+The meals are not tasty.,Negative,Canteen
+The food served here is stale and bad.,Negative,Canteen
+The canteen food is very poor.,Negative,Canteen
+The food is completely raw.,Negative,Canteen
+The canteen meals are undercooked.,Negative,Canteen
+The food lacks any flavor.,Negative,Canteen
+The meals served here are cold.,Negative,Canteen
+The professor explains difficult topics clearly.,Positive,Faculty
+Our teacher makes difficult concepts easy to understand.,Positive,Faculty
+The professor explains complex subjects with simple examples.,Positive,Faculty
+The teacher helps us understand challenging topics.,Positive,Faculty
+She makes hard math problems seem easy.,Positive,Faculty
+He teaches difficult subjects very well.,Positive,Faculty
+The faculty explains challenging topics in a great way.,Positive,Faculty
+Our mathematics professor explains difficult topics with simple examples.,Positive,Faculty
+The teacher makes difficult topics very confusing.,Negative,Faculty
+The professor gives hard exams and does not explain them.,Negative,Faculty
+He makes complex subjects even more confusing.,Negative,Faculty
+The faculty struggles to explain difficult topics.,Negative,Faculty
+Challenging topics are not covered properly in class.,Negative,Faculty
+The teacher gives complex assignments but provides no help.,Negative,Faculty
+The exams are too difficult and out of syllabus.,Negative,Faculty
+Hard topics are skipped by the professor.,Negative,Faculty

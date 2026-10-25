@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - CampusVoice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🗣️ CampusVoice</div>
+        <div class="nav-links">
+            <a href="{{ url_for('index') }}">Analyze</a>
+            <a href="{{ url_for('history') }}">History</a>
+            <a href="{{ url_for('dashboard') }}" class="active">Dashboard</a>
+        </div>
+    </nav>
+
+    <div class="container main-content">
+        <h2>Analytics Dashboard</h2>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Feedback</h3>
+                <div class="stat-value">{{ stats.total }}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Positive</h3>
+                <div class="stat-value text-positive">{{ stats.positive }}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Negative</h3>
+                <div class="stat-value text-negative">{{ stats.negative }}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Neutral</h3>
+                <div class="stat-value text-neutral">{{ stats.neutral }}</div>
+            </div>
+            <div class="stat-card">
+                <h3>High Priority</h3>
+                <div class="stat-value text-high">{{ stats.high_priority }}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Top Category</h3>
+                <div class="stat-value text-category">{{ stats.most_reported }}</div>
+            </div>
+        </div>
+
+        <div class="card chart-card">
+            <h3>Feedback by Category</h3>
+            <div class="simple-bar-chart">
+                {% if stats.total > 0 %}
+                    {% for cat, count in stats.categories.items() %}
+                    <div class="bar-row">
+                        <div class="bar-label">{{ cat }} ({{ count }})</div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="width: {{ (count / stats.total * 100) | round }}%;"></div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <p>No data to display.</p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="card model-info-card">
+            <h3>NLP Model Details</h3>
+            <div class="model-info-grid">
+                <div><strong>Algorithm:</strong> Logistic Regression</div>
+                <div><strong>Feature Extraction:</strong> TF-IDF</div>
+                <div><strong>N-Gram Range:</strong> 1-2</div>
+                <div><strong>Sentiment Classes:</strong> Positive / Negative / Neutral</div>
+                <div><strong>Categories:</strong> Academics / Faculty / Infrastructure / Library / Canteen / Transport / Other</div>
+                <div><strong>Preprocessing:</strong> Lowercase + Tokenization + Stop-word Removal</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

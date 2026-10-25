@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusVoice - Student Feedback Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🗣️ CampusVoice</div>
+        <div class="nav-links">
+            <a href="{{ url_for('index') }}" class="active">Analyze</a>
+            <a href="{{ url_for('history') }}">History</a>
+            <a href="{{ url_for('dashboard') }}">Dashboard</a>
+        </div>
+    </nav>
+
+    <div class="container main-content">
+        <div class="header-section">
+            <h1>Intelligent Student Feedback Analyzer</h1>
+            <p class="subtitle">Turn student feedback into actionable insights using NLP.</p>
+        </div>
+
+        <div class="card analyze-card">
+            <form action="{{ url_for('analyze') }}" method="POST">
+                <label for="feedback_text">Enter Student Feedback:</label>
+                <textarea name="feedback_text" id="feedback_text" rows="5" placeholder="E.g. The computer lab has very slow computers and many systems are not working..." required></textarea>
+                
+                <div class="example-buttons">
+                    <span class="example-label">Try an example:</span>
+                    <button type="button" class="btn-example" onclick="setExample('The Python faculty explains concepts clearly and gives useful examples.')">📚 Academic Example</button>
+                    <button type="button" class="btn-example" onclick="setExample('The computer lab computers are slow and many systems are not working.')">🖥️ Infrastructure Example</button>
+                    <button type="button" class="btn-example" onclick="setExample('The library needs more books related to artificial intelligence.')">📖 Library Example</button>
+                </div>
+                
+                <button type="submit" class="btn-primary">Analyze Feedback</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

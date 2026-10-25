@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result - CampusVoice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🗣️ CampusVoice</div>
+        <div class="nav-links">
+            <a href="{{ url_for('index') }}" class="active">Analyze</a>
+            <a href="{{ url_for('history') }}">History</a>
+            <a href="{{ url_for('dashboard') }}">Dashboard</a>
+        </div>
+    </nav>
+
+    <div class="container main-content">
+        <h2>Analysis Result</h2>
+        
+        <div class="card result-card">
+            <div class="original-text">
+                <strong>Original Feedback:</strong>
+                <p>"{{ text }}"</p>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-box sentiment-{{ result.sentiment.lower() }}">
+                    <h3>Sentiment</h3>
+                    <div class="value">{{ result.sentiment }}</div>
+                    <small>Confidence: {{ result.sentiment_confidence }}%</small>
+                </div>
+                <div class="metric-box">
+                    <h3>Category</h3>
+                    <div class="value">{{ result.category }}</div>
+                </div>
+                <div class="metric-box priority-{{ result.priority.lower() }}">
+                    <h3>Priority</h3>
+                    <div class="value">{{ result.priority }}</div>
+                </div>
+            </div>
+
+            <div class="details-section">
+                <div class="detail-block">
+                    <h3>🔑 Important Keywords</h3>
+                    <div class="tags">
+                        {% for kw in result.keywords %}
+                            <span class="tag">{{ kw }}</span>
+                        {% else %}
+                            <span class="tag">None</span>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="detail-block nlp-insight">
+                    <h3>💡 NLP Insight</h3>
+                    <p>{{ result.insight }}</p>
+                </div>
+
+                <div class="detail-block action-block">
+                    <h3>⚡ Suggested Action</h3>
+                    <p>{{ result.action }}</p>
+                </div>
+                
+                <div class="detail-block processed-text">
+                    <h3>⚙️ Processed Text (NLP Preprocessing)</h3>
+                    <p><code>{{ result.cleaned_text }}</code></p>
+                    <small>Text after lowercasing, punctuation removal, tokenization, and stop-word filtering.</small>
+                </div>
+            </div>
+
+            <div class="actions">
+                <a href="{{ url_for('index') }}" class="btn-secondary">Analyze Another</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

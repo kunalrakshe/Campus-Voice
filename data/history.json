@@ -1,0 +1,416 @@
+[
+    {
+        "id": 46,
+        "timestamp": "2026-10-20 19:34:24",
+        "text": "The computer lab computers are slow and many systems are not working.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 99.6,
+        "category": "Infrastructure",
+        "priority": "High"
+    },
+    {
+        "id": 45,
+        "timestamp": "2026-10-20 19:33:33",
+        "text": "The library needs more books related to artificial intelligence.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 99.5,
+        "category": "Library",
+        "priority": "Low"
+    },
+    {
+        "id": 44,
+        "timestamp": "2026-10-16 17:43:42",
+        "text": "The Python faculty explains concepts clearly and gives useful examples.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 99.6,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 43,
+        "timestamp": "2026-10-02 13:20:10",
+        "text": "The library needs more books related to artificial intelligence.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 99.5,
+        "category": "Library",
+        "priority": "Low"
+    },
+    {
+        "id": 42,
+        "timestamp": "2026-10-02 13:18:12",
+        "text": "The Python faculty explains concepts clearly and gives useful examples.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 99.6,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 41,
+        "timestamp": "2026-09-28 11:51:56",
+        "text": "The computer lab computers are slow and many systems are not working.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 99.6,
+        "category": "Infrastructure",
+        "priority": "High"
+    },
+    {
+        "id": 40,
+        "timestamp": "2026-09-28 11:50:58",
+        "text": "The Python faculty explains concepts clearly and gives useful examples.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 99.6,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 39,
+        "timestamp": "2026-09-24 10:47:27",
+        "text": "Sanket is my friend.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 48.0,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 38,
+        "timestamp": "2026-09-24 10:46:34",
+        "text": "I fight with my classmate fuck him.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 48.0,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 37,
+        "timestamp": "2026-09-24 10:46:20",
+        "text": "I fight with my classmate fuck him.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 48.0,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 36,
+        "timestamp": "2026-09-24 10:44:01",
+        "text": "The computer lab computers are slow and many systems are not working.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 99.6,
+        "category": "Infrastructure",
+        "priority": "High"
+    },
+    {
+        "id": 35,
+        "timestamp": "2026-09-24 10:29:43",
+        "text": "The computer lab computers are slow and many systems are not working.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 99.6,
+        "category": "Infrastructure",
+        "priority": "High"
+    },
+    {
+        "id": 34,
+        "timestamp": "2026-09-24 10:27:52",
+        "text": "The Python faculty explains concepts clearly and gives useful examples.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 99.6,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 33,
+        "timestamp": "2026-09-22 20:01:03",
+        "text": "The Python faculty explains concepts clearly and gives useful examples.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 99.6,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 32,
+        "timestamp": "2026-09-18 22:00:40",
+        "text": "The teachers are helpful, but the college Wi-Fi is unreliable.",
+        "sentiment": "Mixed / Uncertain",
+        "sentiment_confidence": 90.0,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 31,
+        "timestamp": "2026-09-18 21:56:16",
+        "text": "The teachers are helpful, but the college Wi-Fi is unreliable.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 90.0,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 30,
+        "timestamp": "2026-09-18 21:55:58",
+        "text": "The college has three computer laboratories.",
+        "sentiment": "Neutral",
+        "sentiment_confidence": 78.7,
+        "category": "Infrastructure",
+        "priority": "Low"
+    },
+    {
+        "id": 29,
+        "timestamp": "2026-09-18 21:55:36",
+        "text": "The Wi-Fi connection becomes very slow during online lectures.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 99.6,
+        "category": "Infrastructure",
+        "priority": "Medium"
+    },
+    {
+        "id": 28,
+        "timestamp": "2026-09-18 21:54:34",
+        "text": "The college bus usually reaches the campus on time.",
+        "sentiment": "Neutral",
+        "sentiment_confidence": 88.6,
+        "category": "Transport",
+        "priority": "Low"
+    },
+    {
+        "id": 27,
+        "timestamp": "2026-09-18 21:53:37",
+        "text": "The food at the college canteen is cold and tastes terrible.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 97.6,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 26,
+        "timestamp": "2026-09-18 21:53:22",
+        "text": "The canteen serves fresh and delicious meals.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 99.6,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 25,
+        "timestamp": "2026-09-18 21:15:01",
+        "text": "The library is crowded during exam time and there are not enough seats.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 93.2,
+        "category": "Library",
+        "priority": "Low"
+    },
+    {
+        "id": 24,
+        "timestamp": "2026-09-18 21:13:12",
+        "text": "Our mathematics professor explains difficult topics with simple examples.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 46.0,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 23,
+        "timestamp": "2026-09-18 21:13:00",
+        "text": "Several classroom projectors are broken and need immediate repair.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 93.0,
+        "category": "Infrastructure",
+        "priority": "High"
+    },
+    {
+        "id": 22,
+        "timestamp": "2026-09-18 21:12:42",
+        "text": "The computer lab is well maintained and all computers work smoothly.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 98.1,
+        "category": "Infrastructure",
+        "priority": "Low"
+    },
+    {
+        "id": 21,
+        "timestamp": "2026-09-18 21:12:20",
+        "text": "The computer lab is well maintained and all computers work smoothly.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 98.1,
+        "category": "Infrastructure",
+        "priority": "Low"
+    },
+    {
+        "id": 20,
+        "timestamp": "2026-09-18 21:09:23",
+        "text": "The Python faculty explains concepts clearly and gives useful examples.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 99.6,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 19,
+        "timestamp": "2026-09-18 20:23:16",
+        "text": "The meals are not tasty.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 53.3,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 18,
+        "timestamp": "2026-09-18 20:23:03",
+        "text": "The canteen food quality is poor.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 45.4,
+        "category": "Canteen",
+        "priority": "Medium"
+    },
+    {
+        "id": 17,
+        "timestamp": "2026-09-18 20:22:49",
+        "text": "The food tastes very bad.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 90.0,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 16,
+        "timestamp": "2026-09-18 20:22:37",
+        "text": "The canteen food is terrible.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 90.0,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 15,
+        "timestamp": "2026-09-18 20:22:21",
+        "text": "The food quality is excellent",
+        "sentiment": "Positive",
+        "sentiment_confidence": 90.0,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 14,
+        "timestamp": "2026-09-18 20:22:09",
+        "text": "The canteen food tastes really good.\r\n",
+        "sentiment": "Mixed / Uncertain",
+        "sentiment_confidence": 38.5,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 13,
+        "timestamp": "2026-09-18 20:21:50",
+        "text": "The canteen meals are delicious.",
+        "sentiment": "Mixed / Uncertain",
+        "sentiment_confidence": 35.1,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 12,
+        "timestamp": "2026-09-18 20:21:39",
+        "text": "The food served in the canteen is excellent.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 90.0,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 11,
+        "timestamp": "2026-09-18 20:21:24",
+        "text": "The canteen food is very tasty.",
+        "sentiment": "Mixed / Uncertain",
+        "sentiment_confidence": 44.7,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 10,
+        "timestamp": "2026-09-18 20:18:54",
+        "text": "The laboratory equipment is broken.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 90.0,
+        "category": "Infrastructure",
+        "priority": "High"
+    },
+    {
+        "id": 9,
+        "timestamp": "2026-09-18 20:18:39",
+        "text": "The bus service is good.",
+        "sentiment": "Mixed / Uncertain",
+        "sentiment_confidence": 41.3,
+        "category": "Transport",
+        "priority": "Low"
+    },
+    {
+        "id": 8,
+        "timestamp": "2026-09-18 20:18:23",
+        "text": "The college Wi-Fi is extremely slow.",
+        "sentiment": "Mixed / Uncertain",
+        "sentiment_confidence": 43.6,
+        "category": "Infrastructure",
+        "priority": "Medium"
+    },
+    {
+        "id": 7,
+        "timestamp": "2026-09-18 20:18:11",
+        "text": "Our teachers are very helpful.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 90.0,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 6,
+        "timestamp": "2026-09-18 20:17:56",
+        "text": "The library is too crowded.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 51.1,
+        "category": "Library",
+        "priority": "Low"
+    },
+    {
+        "id": 5,
+        "timestamp": "2026-09-18 20:17:30",
+        "text": "The canteen food is very tasty.",
+        "sentiment": "Mixed / Uncertain",
+        "sentiment_confidence": 44.7,
+        "category": "Canteen",
+        "priority": "Low"
+    },
+    {
+        "id": 4,
+        "timestamp": "2026-09-18 20:17:04",
+        "text": "The classroom projector is working perfectly.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 90.0,
+        "category": "Infrastructure",
+        "priority": "Low"
+    },
+    {
+        "id": 1,
+        "timestamp": "2026-09-18 10:00:00",
+        "text": "The computer lab computers are slow and many systems are not working.",
+        "sentiment": "Negative",
+        "sentiment_confidence": 100.0,
+        "category": "Infrastructure",
+        "priority": "High"
+    },
+    {
+        "id": 2,
+        "timestamp": "2026-09-18 10:05:00",
+        "text": "The Python faculty explains concepts clearly and gives useful examples.",
+        "sentiment": "Positive",
+        "sentiment_confidence": 98.2,
+        "category": "Faculty",
+        "priority": "Low"
+    },
+    {
+        "id": 3,
+        "timestamp": "2026-09-18 10:10:00",
+        "text": "The library has 500 books.",
+        "sentiment": "Neutral",
+        "sentiment_confidence": 85.5,
+        "category": "Library",
+        "priority": "Low"
+    }
+]
